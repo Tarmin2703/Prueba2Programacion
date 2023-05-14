@@ -124,38 +124,31 @@ body{
     width: 100%;
     max-width: 800px;
     height: 300px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-radius: 10px;
     margin: 10px auto;
     padding: 20px;
     text-align: center;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s,transform 1s;
+    position: relative;
   }
-
+  .card p {
+    display: none;
+  }
   /* Estilos para el efecto hover */
+  .card:hover p{
+    display: block;
+
+  }
   .card:hover {
-    background-color: #414040;
-    color: #414040;
+    transform: scale(1.1);
   }
 
-  /* Estilos para el texto que aparece en el hover */
-  .card:hover:after {
-    content: "Contenedor";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  /* Estilos para las tarjetas en pantallas pequeñas */
   @media screen and (max-width: 768px) {
     .card {
       height: auto;
     }
-}
+  }
 .container{
     margin-bottom: 10%;
     margin-top: 10%;
