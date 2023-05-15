@@ -2,61 +2,61 @@ const productos = [
 	{
 		id: 1,
 		nombre: 'Café Americano',
-		imagen: 'imagenes/cafe-americano.jpg',
+		imagen: 'imagenes/pngegg (3).png',
 		precio: 1000
 	},
 	{
 		id: 2,
 		nombre: 'Café con Leche',
-		imagen: 'imagenes/cafe-con-leche.jpg',
+		imagen: 'imagenes/pngegg (4).png',
 		precio: 900
 	},
 	{
 		id: 3,
 		nombre: 'Café Mocha',
-		imagen: 'imagenes/cafe-mocha.jpg',
+		imagen: 'imagenes/pngegg (5).png',
 		precio: 1100
 	},
 	{
 		id: 4,
 		nombre: 'Capuccino',
-		imagen: 'imagenes/capuccino.jpg',
+		imagen: 'imagenes/pngegg (6).png',
 		precio: 1000
 	},
 	{
 		id: 5,
 		nombre: 'Té de Hierbas',
-		imagen: 'imagenes/te-hierbas.jpg',
+		imagen: 'imagenes/pngegg (7).png',
 		precio: 800
 	},
 	{
 		id: 6,
-		nombre: 'Sandwich de Jamón y Queso',
-		imagen: 'imagenes/sandwich-jamon-queso.jpg',
+		nombre: 'Sandwich ',
+		imagen: 'imagenes/pngegg (8).png',
 		precio: 1200
 	},
 	{
 		id: 7,
-		nombre: 'Croissant de Jamón y Queso',
-		imagen: 'imagenes/croissant-jamon-queso.jpg',
+		nombre: 'Croissant Salado',
+		imagen: 'imagenes/pngegg (9).png',
 		precio: 2500
 	},
 	{
 		id: 8,
-		nombre: 'Bagel con Queso Crema',
-		imagen: 'imagenes/bagel-queso-crema.jpg',
+		nombre: 'Dona Glaseada',
+		imagen: 'imagenes/pngegg (10).png',
 		precio: 3000
 	},
 	{
 		id: 9,
 		nombre: 'Magdalena',
-		imagen: 'imagenes/magdalena.jpg',
-		precio: 1300
+		imagen: 'imagenes/pngegg (11).png',
+		precio: 700
 	},
 	{
 		id: 10,
 		nombre: 'Brownie',
-		imagen: 'imagenes/brownie.jpg',
+		imagen: 'imagenes/pngegg (12).png',
 		precio: 1500
 	}
 ];
