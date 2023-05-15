@@ -183,3 +183,6 @@ body{
 .ingresos .btn-enviar{
     align-items: center;
 }
+::-webkit-scrollbar{
+    display: none;
+}
