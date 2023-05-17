@@ -218,3 +218,6 @@ img h3{
         flex: 100%;
     }
 }
+::-webkit-scrollbar{
+    display: none;
+}
