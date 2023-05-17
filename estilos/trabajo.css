@@ -87,6 +87,8 @@ main {
 	width: 90%;
 	margin: auto;
 	padding: 40px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .formulario {
@@ -115,6 +117,7 @@ main {
 	line-height: 45px;
 	padding: 0 40px 0 10px;
 	transition: .3s ease all;
+	border-color: #000;
 }
 
 .formulario__input:focus {
@@ -220,6 +223,9 @@ main {
 .formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
 }
+::-webkit-scrollbar{
+        display: none;
+    }
 
 
 /* ----- -----  Mediaqueries ----- ----- */
@@ -238,3 +244,4 @@ main {
 		width: 100%;
 	}
 }
+
